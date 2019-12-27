@@ -230,16 +230,4 @@ select::-ms-expand { display: none; }
 .ddlb input{background:#fff;border:3px solid #d6e1de;border-radius:5px; height:0.34rem; line-height:0.34rem; width:1.4rem; float:right; background:url(../images/rili_03.png) no-repeat scroll 1.28rem center #fff; background-size:15%; padding-left:0.2rem; font-size:0.2rem; margin-top:0.1rem;}
 
 
-@media screen and (orientation: landscape) {
-    /* 横屏 */
-.wrap_header{ background:url(../images/heng.png) no-repeat;width:7.5rem; height:.53rem;  background-size: 100% 100%; text-align:center;}
-.header_title{font-size:0.36rem; color:#fff;height:.53rem; line-height:.53rem; width:7.5rem;}
-.header_close{position:absolute; top:0.15rem; left:0.23rem;}
-.header_close img{width:0.23rem; height:0.23rem;}
-.wrap_footer{background:#2ba785; width:7.5rem; height:0.1rem; position:fixed; bottom:0rem; left:0rem;}
-}
 
-
-@media screen and (orientation: portrait) {
-    /* 竖屏 */
-}
