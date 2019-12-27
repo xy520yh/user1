@@ -11,6 +11,18 @@ html{overflow-x:hidden;overflow:-Scroll;overflow-x:hidden}
 .cf{zoom:1}
 
 /*首页*/
+
+
+
+
+    /* 横屏 */
+/*.wrap_header{ background:url(../images/heng.png) no-repeat;width:13.34rem; height:.53rem;  background-size: 100% 100%; text-align:center;}
+.header_title{font-size:0.36rem; color:#fff;height:.53rem; line-height:.53rem; width:13.34rem;}
+.header_close{position:absolute; top:0.15rem; left:0.23rem;}
+.header_close img{width:0.23rem; height:0.23rem;}
+.wrap_footer{background:#2ba785; width:13.34rem; height:0.1rem; position:fixed; bottom:0rem; left:0rem;}*/
+
+
 .wrap{ margin:0 auto; width:13.34rem; position:relative;}
 .wrap_header{ background:url(../images/wrap_head_bg.jpg) no-repeat;width:13.34rem; height:1.42rem;  background-size: 100% 100%; text-align:center;}
 .header_title{font-size:0.36rem; color:#fff;height:1.42rem; line-height:1.42rem; width:13.34rem;}
@@ -243,16 +255,4 @@ select::-ms-expand { display: none; }
 .ddlb input{background:#fff;border:2px solid #d6e1de;border-radius:5px; height:0.54rem; line-height:0.54rem; width:1.6rem; float:right; background:url(../images/rili_03.png) no-repeat scroll 1.44rem center #fff; background-size:15%; padding-left:0.1rem; font-size:0.2rem; margin-top:0.1rem; font-size:0.24rem;}
 
 
-@media screen and (orientation: landscape) {
-    /* 横屏 */
-/*.wrap_header{ background:url(../images/heng.png) no-repeat;width:13.34rem; height:.53rem;  background-size: 100% 100%; text-align:center;}
-.header_title{font-size:0.36rem; color:#fff;height:.53rem; line-height:.53rem; width:13.34rem;}
-.header_close{position:absolute; top:0.15rem; left:0.23rem;}
-.header_close img{width:0.23rem; height:0.23rem;}
-.wrap_footer{background:#2ba785; width:13.34rem; height:0.1rem; position:fixed; bottom:0rem; left:0rem;}*/
-}
 
-
-@media screen and (orientation: portrait) {
-    /* 竖屏 */
-}
