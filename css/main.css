@@ -109,7 +109,7 @@ li.red{color:#df4b33;}
 .ul_list ul li:last-child { border-bottom:none;} 
 
 
-.wrap_passport_txt_xg{ height:0.6rem; margin-bottom:0.3rem; font-family:'微软雅黑';-webkit-font-smoothing: subpixel-antialiased;}
+.wrap_passport_txt_xg{ height:0.6rem; margin-bottom:0.2rem; font-family:'微软雅黑';-webkit-font-smoothing: subpixel-antialiased;}
 
 .xg_s01 select{width:2.1rem; height:0.5rem; float:left; margin-right:0.2rem;}
 .xg_s02 select{width:2.1rem; height:0.5rem;}
