@@ -7,10 +7,38 @@ function rePosition(){
         document.getElementsByTagName('html')[0].style.fontSize="100px";
     }
 }
+
+function rePosition1(){
+    var width = document.documentElement.clientWidth || document.body.clientWidth;
+    var ratio = width/750;
+    if(width<=750){
+        document.getElementsByTagName('html')[0].style.fontSize=100*ratio+"px";
+    }else{
+        document.getElementsByTagName('html')[0].style.fontSize="100px";
+    }
+}
+
 rePosition();
+rePosition1();
 window.onresize = function(){
     rePosition();
+	rePosition1();
 };
+
+ window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function () {
+      if (window.orientation === 180 || window.orientation === 0) {
+		   // alert('竖屏状态！');
+       rePosition1();
+      }
+      if (window.orientation === 90 || window.orientation === -90) {
+		   // alert('横屏！');
+        rePosition();
+      }
+    }, false);
+
+
+
+
 
 
 

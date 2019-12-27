@@ -76,7 +76,7 @@ span.box_right img{width:0.16rem; height:0.26rem;}
 .wrap_usrer_t_r{width:1.29rem; height:0.39rem; float:right; padding-top:0.2rem;}
 .wrap_usrer_t_r  a img{width:1.29rem; height:0.39rem}
 .wrap_usrer_t_l{float:left;}
-.wrap_usrer_t_l p{ font-size:0.35rem; margin-bottom:0.2rem}
+.wrap_usrer_t_l p{ font-size:0.32rem; margin-bottom:0.2rem}
 
 .user_squr a{background:#e74c3c;width:3rem; height:1.02rem; display:block; color:#fff; font-size:0.32rem;}
 .user_squr{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:1.02rem; line-height:1.02rem; text-align:center; float:left; margin-right:0.26rem; margin-bottom:0.2rem;}
@@ -99,9 +99,9 @@ span.box_right img{width:0.16rem; height:0.26rem;}
 	-webkit-transform:scale(1.2, 1.2); /* Safari 和 Chrome */
 	-o-transform:scale(1.2, 1.2); 	/* Opera */ transition:1s;}	
 .ul_list{width:10rem;border:2px solid #d6e1de;border-radius:5px;text-align:center; background:#fff;}
-h3.gray {background:#f0f0f0; font-size:0.22rem; color:#808080; height:0.65rem; line-height:0.65rem; margin:0.01rem;width:9.58rem; padding-left:0.2rem; padding-right:0.2rem;}
+h3.gray {background:#f0f0f0; font-size:0.3rem; color:#808080; height:0.65rem; line-height:0.65rem; margin:0.01rem;width:9.58rem; padding-left:0.2rem; padding-right:0.2rem;}
 
-.ul_list li{height:0.5rem; line-height:0.5rem; border-bottom:2px dashed #e3e1df;background:#fff; font-size:0.18rem;}
+.ul_list li{height:0.5rem; line-height:0.5rem; border-bottom:2px dashed #e3e1df;background:#fff; font-size:0.24rem;}
 .list {width:9.6rem; padding:0.2rem;}
 .sq01{width:2rem; display:block; float:left; text-align:center; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 .sq02{width:2rem; display:block; float:left;text-align:center;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
@@ -240,7 +240,7 @@ select{background:#fff;border:2px solid #d6e1de;border-radius:5px;color:#ccc; fo
 /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
 select::-ms-expand { display: none; }
 
-.ddlb input{background:#fff;border:2px solid #d6e1de;border-radius:5px; height:0.54rem; line-height:0.54rem; width:1.4rem; float:right; background:url(../images/rili_03.png) no-repeat scroll 1.28rem center #fff; background-size:15%; padding-left:0.2rem; font-size:0.2rem; margin-top:0.1rem;}
+.ddlb input{background:#fff;border:2px solid #d6e1de;border-radius:5px; height:0.54rem; line-height:0.54rem; width:1.6rem; float:right; background:url(../images/rili_03.png) no-repeat scroll 1.44rem center #fff; background-size:15%; padding-left:0.1rem; font-size:0.2rem; margin-top:0.1rem; font-size:0.24rem;}
 
 
 @media screen and (orientation: landscape) {
