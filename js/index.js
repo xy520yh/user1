@@ -1,4 +1,4 @@
-function rePosition(){
+/*function rePosition(){
     var width = document.documentElement.clientWidth || document.body.clientWidth;
     var ratio = width/1334;
     if(width<=1334){
@@ -16,16 +16,32 @@ function rePosition1(){
     }else{
         document.getElementsByTagName('html')[0].style.fontSize="100px";
     }
+}*/
+
+function rePosition(){
+    var width = document.documentElement.clientWidth || document.body.clientWidth;
+ var height = document.documentElement.clientHeight || document.body.clientHeight;
+ var _i = 1334 / 750;
+ var _r = width / height;
+ if (_r > _i) {
+  width = height * _i;
+ }
+ var ratio = width / 1334;
+
+    if(width<=1334){
+        document.getElementsByTagName('html')[0].style.fontSize=100*ratio+"px";
+    }else{
+        document.getElementsByTagName('html')[0].style.fontSize="100px";
+    }
 }
 
-rePosition();
-rePosition1();
-/*window.onresize = function(){
+/*rePosition();
+rePosition1();*/
+window.onresize = function(){
     rePosition();
-	rePosition1();
+
 };
-*/
- window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function () {
+/* window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function () {
       if (window.orientation === 180 || window.orientation === 0) {
 		   // alert('竖屏状态！');
        rePosition1();
@@ -34,7 +50,7 @@ rePosition1();
 		   // alert('横屏！');
         rePosition();
       }
-    }, false);
+    }, false);*/
 
 
 
