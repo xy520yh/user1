@@ -78,11 +78,11 @@ span.box_right img{width:0.16rem; height:0.26rem;}
 .wrap_usrer_t_l{float:left;}
 .wrap_usrer_t_l p{ font-size:0.32rem; margin-bottom:0.2rem}
 
-.user_squr a{background:#e74c3c;width:3rem; height:1.02rem; display:block; color:#fff; font-size:0.32rem;}
-.user_squr{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:1.02rem; line-height:1.02rem; text-align:center; float:left; margin-right:0.26rem; margin-bottom:0.2rem;}
+.user_squr a{background:#e74c3c;width:3rem; height:0.8rem; display:block; color:#fff; font-size:0.32rem;}
+.user_squr{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:0.8rem; line-height:0.8rem; text-align:center; float:left; margin-right:0.26rem; margin-bottom:0.2rem;}
 
-.user_squr_lv a{background:#2ba785;width:3rem; height:1.02rem; display:block; color:#fff; font-size:0.32rem;}
-.user_squr_lv{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:1.02rem; line-height:1.02rem; text-align:center; float:left; margin-right:0.26rem;margin-bottom:0.2rem;}
+.user_squr_lv a{background:#2ba785;width:3rem; height:0.8rem; display:block; color:#fff; font-size:0.32rem;}
+.user_squr_lv{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:0.8rem; line-height:0.8rem; text-align:center; float:left; margin-right:0.26rem;margin-bottom:0.2rem;}
 .mr{margin-right:0rem;}
 
 .user_squr:hover,.user_squr_lv:hover {transform: scale(1.2, 1.2);	
