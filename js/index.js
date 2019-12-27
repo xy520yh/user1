@@ -20,11 +20,11 @@ function rePosition1(){
 
 rePosition();
 rePosition1();
-window.onresize = function(){
+/*window.onresize = function(){
     rePosition();
 	rePosition1();
 };
-
+*/
  window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function () {
       if (window.orientation === 180 || window.orientation === 0) {
 		   // alert('竖屏状态！');
