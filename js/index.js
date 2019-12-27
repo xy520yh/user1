@@ -9,10 +9,10 @@ function rePosition(){
 }
 
 function rePosition1(){
-    var width = document.documentElement.clientWidth || document.body.clientWidth;
-    var ratio = width/750;
-    if(width<=750){
-        document.getElementsByTagName('html')[0].style.fontSize=100*ratio+"px";
+    var width1 = document.documentElement.clientWidth || document.body.clientWidth;
+    var ratio1 = width1/750;
+    if(width1<=750){
+        document.getElementsByTagName('html')[0].style.fontSize=100*ratio1+"px";
     }else{
         document.getElementsByTagName('html')[0].style.fontSize="100px";
     }
