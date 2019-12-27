@@ -112,7 +112,7 @@ li.red{color:#df4b33;}
 
 
 
-.wrap_passport{position:absolute; top:1.8rem;left:0.3rem; width:6.24rem;height:3.6rem; padding-top:0.6rem; padding-left:0.4rem; padding-right:0.4rem;}
+.wrap_passport{position:absolute; top:1.4rem;left:2.3rem; width:6.24rem;height:3.6rem; padding-top:0.6rem; padding-left:0.4rem; padding-right:0.4rem;}
 .wrap_passport_txt{ height:0.6rem; margin-bottom:0.6rem;}
 .passpor_txt01{display:block; float:left; width:1.6rem; font-size:0.3rem; text-align:right; margin-top:0.1rem;font-family:'微软雅黑';-webkit-font-smoothing: subpixel-antialiased;}
 .passpor_txt02{display:block; float:left;  font-size:0.3rem; width:4rem; height:0.54rem; background:#fff;border:3px solid #d6e1de; border-radius:0.05rem; margin-left:0.2rem;}
@@ -151,7 +151,7 @@ select.sources{background:#fff;border:3px solid #d6e1de;border-radius:5px; font-
 .xg_s02 select{width:2rem; float:left; height:0.6rem; line-height:0.6rem;}
 select{background:#fff;border:3px solid #d6e1de;border-radius:5px;color:#ccc; font-size:0.26rem; padding-left:0.2rem;}
 
-.wrap_ddlb{position:absolute; top:1.2rem;left:0.3rem; width:6.24rem;height:1.2rem; padding-top:0.6rem; padding-left:0.4rem; padding-right:0.4rem;border-bottom:3px dashed #d7d0c5;}
+.wrap_ddlb{position:absolute; top:1.2rem;left:0.3rem; width:6.24rem;height:1.2rem; padding-top:0.6rem; padding-left:0.4rem; padding-right:0.4rem;border-bottom:3px dashed #d7d0c5; }
 
 .title_c{color:#f0f0f0; color:#808080;}
 
