@@ -11,7 +11,7 @@ html{overflow-x:hidden;overflow:-Scroll;overflow-x:hidden}
 .cf{zoom:1}
 
 /*首页*/
-.wrap{ margin:0 auto; width:13.34rem; position:relative;}
+.wrap{ margin:0 auto; width:100%; position:relative;}
 .wrap_header{ background:url(../images/wrap_head_bg.jpg) no-repeat;width:13.34rem; height:1.42rem;  background-size: 100% 100%; text-align:center;}
 .header_title{font-size:0.36rem; color:#fff;height:1.42rem; line-height:1.42rem; width:13.34rem;}
 .header_close{position:absolute; top:0.3rem; left:0.23rem;}
@@ -78,11 +78,11 @@ span.box_right img{width:0.16rem; height:0.26rem;}
 .wrap_usrer_t_l{float:left;}
 .wrap_usrer_t_l p{ font-size:0.32rem; margin-bottom:0.2rem}
 
-.user_squr a{background:#e74c3c;width:3rem; height:0.7rem; display:block; color:#fff; font-size:0.32rem;}
-.user_squr{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:0.7rem; line-height:0.8rem; text-align:center; float:left; margin-right:0.26rem; margin-bottom:0.2rem;}
+.user_squr a{background:#e74c3c;width:3rem; height:0.6rem; display:block; color:#fff; font-size:0.32rem;}
+.user_squr{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:0.6rem; line-height:0.6rem; text-align:center; float:left; margin-right:0.26rem; margin-bottom:0.2rem;}
 
 .user_squr_lv a{background:#2ba785;width:3rem; height:0.7rem; display:block; color:#fff; font-size:0.32rem;}
-.user_squr_lv{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:0.7rem; line-height:0.7rem; text-align:center; float:left; margin-right:0.26rem;margin-bottom:0.2rem;}
+.user_squr_lv{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:0.6rem; line-height:0.6rem; text-align:center; float:left; margin-right:0.26rem;margin-bottom:0.2rem;}
 .mr{margin-right:0rem;}
 
 .user_squr:hover,.user_squr_lv:hover {transform: scale(1.2, 1.2);	
@@ -117,17 +117,17 @@ li.red{color:#df4b33;}
 .ul_list ul li:last-child { border-bottom:none;} 
 
 
-.wrap_passport_txt_xg{ height:0.6rem; margin-bottom:0.2rem; font-family:'微软雅黑';-webkit-font-smoothing: subpixel-antialiased;}
+.wrap_passport_txt_xg{ height:0.4rem; margin-bottom:0.2rem; font-family:'微软雅黑';-webkit-font-smoothing: subpixel-antialiased;}
 
-.xg_s01 select{width:2.1rem; height:0.5rem; float:left; margin-right:0.2rem;}
-.xg_s02 select{width:2.1rem; height:0.5rem;}
-
-
+.xg_s01 select{width:2.1rem; height:0.3rem; float:left; margin-right:0.2rem;}
+.xg_s02 select{width:2.1rem; height:0.3rem;}
 
 
-.wrap_passport{position:absolute; top:1.2rem;left:2.9rem; width:6.24rem;height:3.6rem; padding-top:0.6rem; padding-left:0.4rem; padding-right:0.4rem;}
-.wrap_passport_txt{ height:0.6rem; margin-bottom:0.6rem;}
-.passpor_txt01{display:block; float:left; width:1.6rem; font-size:0.3rem; text-align:right; margin-top:0.1rem;font-family:'微软雅黑';-webkit-font-smoothing: subpixel-antialiased;}
+
+
+.wrap_passport{position:absolute; top:1.2rem;left:2.9rem; width:6.24rem;height:3rem; padding-top:0.6rem; padding-left:0.4rem; padding-right:0.4rem;}
+.wrap_passport_txt{ height:0.6rem; margin-bottom:0.2rem;}
+.passpor_txt01{display:block; float:left; width:1.6rem; font-size:0.3rem; text-align:right;font-family:'微软雅黑';-webkit-font-smoothing: subpixel-antialiased;}
 .passpor_txt02{display:block; float:left;  font-size:0.3rem; width:4rem; height:0.54rem; background:#fff;border:2px solid #d6e1de; border-radius:0.05rem; margin-left:0.2rem;}
 .passpor_txt02 input{border:none;width:3.6rem;padding-left:0.2rem; height:0.54rem;font-size:0.3rem; overflow:hidden; line-height:0.54rem; background:none;  color:#808080;}
 
@@ -154,14 +154,14 @@ select.sources{background:#fff;border:2px solid #d6e1de;border-radius:5px; font-
 
 
 
-.passpor_txt02{display:block; float:left;  font-size:0.26rem; width:4rem; height:0.54rem; background:#fff;border:2px solid #d6e1de; border-radius:0.05rem; margin-left:0.1rem;}
-.passpor_txt02 input{border:none;width:3.6rem;padding-left:0.2rem; height:0.54rem;font-size:0.26rem; overflow:hidden; line-height:0.54rem; background:none;  color:#ccc;}
+.passpor_txt02{display:block; float:left;  font-size:0.22rem; width:4rem; height:0.5rem; background:#fff;border:2px solid #d6e1de; border-radius:0.05rem; margin-left:0.1rem;}
+.passpor_txt02 input{border:none;width:3.6rem;padding-left:0.2rem; height:0.5rem;font-size:0.26rem; overflow:hidden; line-height:0.5rem; background:none;  color:#ccc;}
 
 
 
-.xg_s select,.xg_sa select{width:3.2rem;  margin-left:0.1rem; height:0.6rem; line-height:0.6rem;}
-.xg_s01 select{width:2rem;  margin-left:0.1rem; float:left; height:0.6rem; line-height:0.6rem;}
-.xg_s02 select{width:2rem; float:left; height:0.6rem; line-height:0.6rem;}
+.xg_s select,.xg_sa select{width:3.2rem;  margin-left:0.1rem; height:0.52rem; line-height:0.5rem;}
+.xg_s01 select{width:2rem;  margin-left:0.1rem; float:left; height:0.52rem; line-height:0.5rem;}
+.xg_s02 select{width:2rem; float:left; height:0.5rem; line-height:0.52rem;}
 select{background:#fff;border:2px solid #d6e1de;border-radius:5px;color:#ccc; font-size:0.26rem; padding-left:0.2rem;}
 
 .wrap_ddlb{position:absolute; top:1rem;left:1.25rem; width:10rem;height:1.2rem; padding-top:0.6rem; padding-left:0.4rem; padding-right:0.4rem;border-bottom:2px dashed #d7d0c5; }
