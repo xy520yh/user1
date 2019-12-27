@@ -71,18 +71,18 @@ span.box_right img{width:0.16rem; height:0.26rem;}
 
 */
 
-.wrap_user{position:absolute; top:1.3rem;left:2.9rem; width:6.24rem;  height:0.8rem;border-bottom:2px dashed #d7d0c5;padding-top:0.6rem; padding-left:0.4rem; padding-right:0.4rem; padding-bottom:0.4rem;}
+.wrap_user{position:absolute; top:1.3rem;left:1.25rem; width:10rem;  height:1rem;border-bottom:2px dashed #d7d0c5;padding-top:0.6rem; padding-left:0.4rem; padding-right:0.4rem; padding-bottom:0.4rem;}
 .wrap_user_top{ height:1.2rem; margin-bottom:0.5rem;}
 .wrap_usrer_t_r{width:1.29rem; height:0.39rem; float:right; padding-top:0.2rem;}
 .wrap_usrer_t_r  a img{width:1.29rem; height:0.39rem}
 .wrap_usrer_t_l{float:left;}
-.wrap_usrer_t_l p{ font-size:0.22rem; margin-bottom:0.2rem}
+.wrap_usrer_t_l p{ font-size:0.35rem; margin-bottom:0.2rem}
 
-.user_squr a{background:#e74c3c;width:1.8rem; height:0.53rem; display:block; color:#fff; font-size:0.18rem;}
-.user_squr{border:1px solid #d5ebe0; padding:0.02rem;width:1.8rem; height:0.53rem; line-height:0.53rem; text-align:center; float:left; margin-right:0.26rem; margin-bottom:0.2rem;}
+.user_squr a{background:#e74c3c;width:3rem; height:1.02rem; display:block; color:#fff; font-size:0.32rem;}
+.user_squr{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:1.02rem; line-height:1.02rem; text-align:center; float:left; margin-right:0.26rem; margin-bottom:0.2rem;}
 
-.user_squr_lv a{background:#2ba785;width:1.8rem; height:0.53rem; display:block; color:#fff; font-size:0.18rem;}
-.user_squr_lv{border:1px solid #d5ebe0; padding:0.02rem;width:1.8rem; height:0.53rem; line-height:0.53rem; text-align:center; float:left; margin-right:0.26rem;margin-bottom:0.2rem;}
+.user_squr_lv a{background:#2ba785;width:3rem; height:1.02rem; display:block; color:#fff; font-size:0.32rem;}
+.user_squr_lv{border:1px solid #d5ebe0; padding:0.02rem;width:3rem; height:1.02rem; line-height:1.02rem; text-align:center; float:left; margin-right:0.26rem;margin-bottom:0.2rem;}
 .mr{margin-right:0rem;}
 
 .user_squr:hover,.user_squr_lv:hover {transform: scale(1.2, 1.2);	
